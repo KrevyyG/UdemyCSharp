@@ -14,7 +14,7 @@ Exercícios de Fixação sobre os seguintes tópicos:
 #### Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salário possa ser mudado livremente. Um salário só pode ser aumentado com base em uma operação de aumento por porcentagem dada.
 
 ##### Arquivo Program.cs
-´´´
+```
             Console.Write("Quantos funcionários serão regitrados? : ");
             int qtdeFunc = int.Parse(Console.ReadLine());
             Console.WriteLine();
@@ -56,10 +56,10 @@ Exercícios de Fixação sobre os seguintes tópicos:
             {
                 Console.WriteLine(obj);
             }
-´´´
+```
 
 ##### Arquivo Funcionario.cs (classe)
-´´´
+```
         public int Id { get; }
         public string Nome { get; set; }
         public double Salario { get; private set; }
@@ -85,4 +85,4 @@ Exercícios de Fixação sobre os seguintes tópicos:
                 + ", "
                 + Salario.ToString("F2", CultureInfo.InvariantCulture); 
         }
-´´´
+```

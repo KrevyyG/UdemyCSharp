@@ -17,7 +17,7 @@ Exercícios de Fixação sobre os seguintes tópicos:
 #### Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação.
 
 ##### Arquivo Program.cs
-´´´
+```
             Console.Write("Entre com o número da conta: ");
             int numero = int.Parse(Console.ReadLine());
 
@@ -56,10 +56,10 @@ Exercícios de Fixação sobre os seguintes tópicos:
             Console.WriteLine("Dados da conta atualizados: ");
             Console.WriteLine(cb);
 
-´´´
+```
 
 ##### Arquivo Funcionario.cs (classe)
-´´´
+```
         public int Numero { get; }
         public string Titular { get; set; }
         public double Saldo { get; private set; }
@@ -94,4 +94,4 @@ Exercícios de Fixação sobre os seguintes tópicos:
                 + ", Saldo: $ "
                 + Saldo.ToString("F2", CultureInfo.InvariantCulture);
         }
-´´´
+```

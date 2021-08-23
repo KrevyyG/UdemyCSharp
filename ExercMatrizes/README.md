@@ -11,7 +11,7 @@ Exercícios de Fixação sobre os seguintes tópicos:
 ### Execícios
 #### 1 - Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz de M linhas por N colunas contendo números inteiros,
 podendo haver repetições. Em seguida, ler um número inteiro X que pertence à matriz. Para cada ocorrência de X, mostrar os valores à esquerda, acima, à direita e abaixo de X, quando houver, conforme exemplo.
-´´´
+```
             string[] vect = Console.ReadLine().Split(' ');
             int m = int.Parse(vect[0]);
             int n = int.Parse(vect[1]);
@@ -61,4 +61,4 @@ podendo haver repetições. Em seguida, ler um número inteiro X que pertence à
                     }
                 }
             }
-´´´
+```

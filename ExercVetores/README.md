@@ -16,7 +16,7 @@ alugar quartos (N pode ser de 1 a 10). Em seguida, registre o aluguel dos N estu
 um relatório de todas ocupações do pensionato, por ordem de quarto, conforme exemplo.
 
 ##### Arquivo Program.cs
-´´´
+```
             Console.Write("Quantos quartos serão alugados ?: ");
             int qtdeQuart = int.Parse(Console.ReadLine());
             Console.WriteLine("");
@@ -46,10 +46,10 @@ um relatório de todas ocupações do pensionato, por ordem de quarto, conforme 
                     Console.WriteLine(i + ": " + vect[i]);
                 }
             }
-´´´
+```
 
 ##### Arquivo Estudante.cs (Classe)
-´´´
+```
         public string Nome { get; set; }
         public string Email { get; set; }
 
@@ -65,4 +65,4 @@ um relatório de todas ocupações do pensionato, por ordem de quarto, conforme 
                 + ", "
                 + Email;
         }
-´´´
+```
