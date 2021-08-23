@@ -1,5 +1,6 @@
 # Exercícios efetuados durante o aprendizado em Linguagem C#
-Exercícios de Fixação sobre os seguintes tópicos:
+Exercícios de Fixação sobre os seguintes tópicos...
+
 - Classes
 - Atributos
 - Métodos
